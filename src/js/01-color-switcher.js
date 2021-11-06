@@ -13,3 +13,6 @@ startButton.addEventListener('click', () => {timerId = setInterval(() => {
 
 stopButton.addEventListener("click", () => {clearInterval(timerId); startButton.removeAttribute("disabled")});
 
+
+
+
